@@ -1,0 +1,54 @@
+/* Basic styles for the container */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title styles */
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Advice text styles */
+.advice {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Button styles */
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color:  transparent;
+  color:  red;
+  border: 2px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: red;
+  color: white;
+}
+
+.advice-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+    margin-bottom: 1.5rem;
+  }
